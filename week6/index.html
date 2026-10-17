@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe</title>
+    <style>
+
+    body {
+      padding:25px;
+    }
+
+  .hero {
+    background-image: url(./img/ford_big.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 1084px;
+    width: 1927px;
+  }
+      
+
+      
+      .nav {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap:wrap;
+          gap: 30px;  
+          border:1px solid black;
+        }
+      
+      .box {
+         background-color: rgb(206, 3, 3);
+         min-height: 150px;
+         width: 150px;
+         padding:5px;
+        
+       }
+
+      .b1 {
+        flex-grow:2;
+        background-image: url(./img/ford_logo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        height: 30px;
+        width: 582px;
+      }
+
+      .b2 {
+        flex-grow:2;
+        height: 18px;
+        width: 218px; 
+      }
+
+      .b3 {
+
+      }   
+      
+      li {
+        text-decoration: none;
+        display: inline;
+        
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+
+      <div class="hero">
+        <div class="nav">  
+            <div class="box b1"></div>
+            <div class="box b2">
+                <ul>
+                  <li>VEHICLES</li>
+                  <li>SHOP</li>
+                  <li>SUPPORT & SERVICE</li>
+                  <li>FORD PRO SOLUTIONS</li>
+                </ul>
+                
+            </div>
+            <div class="box b3">
+                <p>2026 ESCAPE STARTING AT $30,350 DETAILS </p>
+            </div>
+            <div class="box b4">
+                <ul>
+                    <li>SEARCH INVENTORY</li>
+                    <li>2025 ESCAPE</li>
+                </ul>
+            </div>
+          </div>
+      </div>
+    
+  </body>
+</html>
